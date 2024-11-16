@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tom & Jerry GIFs</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <header></header>
+    <nav>
+      | <a href="#" class="nav-link" data-page="home">Home</a> |
+      <a href="#" class="nav-link" data-page="trending">Trending</a> |
+      <a href="#" class="nav-link" data-page="favorites">Favorites</a>
+      <input id="search" type="text" placeholder="Search">
+      <a href="#" class="nav-link" data-page="upload" id="upload-button">
+        Upload
+        <span>
+          <img src="images/upload-icon.png" alt="Upload Icon" style="width: 28px; height: 28px;" id="upload-btn">
+        </span>
+      </a> |
+      <a href="#" class="nav-link" data-page="uploaded">View Uploads</a> |
+      <a href="#" class="nav-link" data-page="about">About</a> |
+    </nav>
+    <div id="container">
+
+      <!-- start placeholders -->
+
+      <!-- end placeholders -->
+    </div>
+  </div>
+
+  <!-- input for uploading gifs -->
+  <input type="file" id="gif-upload-input" accept="image/gif" style="display: none;" />
+
+  <!-- app -->
+  <script src="./src/index.js" type="module"></script>
+  <!-- end app -->
+</body>
+
+</html>
